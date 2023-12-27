@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS questions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL
+);
+INSERT INTO questions (question, answer) VALUES ('What is the capital of France?', 'Paris');
+INSERT INTO questions (question, answer) VALUES ('What is 2 + 2?', '4');
+INSERT INTO questions (question, answer) VALUES ('What is the largest ocean on Earth?', 'Pacific');
